@@ -32,7 +32,4 @@ public class Example4 {
 
         System.out.println(set);
     }
-
-
-
 }

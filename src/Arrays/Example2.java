@@ -1,5 +1,5 @@
 package Arrays;
-//second largets element in an array
+//second-largest element in an array
 public class Example2 {
     public static void main(String[] args) {
         int[] arr={3,6,5,1,2,8};
