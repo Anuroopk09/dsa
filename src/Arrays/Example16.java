@@ -1,6 +1,7 @@
 package Arrays;
 
 class Example16 {
+
     //sort an array of 0's 1's and 2's
 
     void main() {
@@ -25,22 +26,21 @@ class Example16 {
 
         int index = 0;
 
-        // fill 0s
+        // for 0s
         for (int i = 0; i < count0; i++) {
             arr2[index++] = 0;
         }
 
-        // fill 1s
+        // for 1s
         for (int i = 0; i < count1; i++) {
             arr2[index++] = 1;
         }
 
-        // fill 2s
+        // for 2s
         for (int i = 0; i < count2; i++) {
             arr2[index++] = 2;
         }
 
-        // print
         for (int i = 0; i < arr2.length; i++) {
             System.out.print(arr2[i] + " ");
         }
