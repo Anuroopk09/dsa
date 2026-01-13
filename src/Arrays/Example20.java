@@ -7,6 +7,8 @@ public class Example20
     static void main()
     {
         int[] arr = {1, 2, -4, -5};
+        //arraylist is used here to dynamically increase/decrease the size of
+        //array and avoid unnecessary indexing during merging
         ArrayList<Integer> pos = new ArrayList<>();
         ArrayList<Integer> neg = new ArrayList<>();
 
