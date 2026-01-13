@@ -7,8 +7,6 @@ public class Example20
     static void main()
     {
         int[] arr = {1, 2, -4, -5};
-        Arrays.sort(arr);
-        int count = 0;
         ArrayList<Integer> pos = new ArrayList<>();
         ArrayList<Integer> neg = new ArrayList<>();
 
