@@ -14,7 +14,7 @@ public class Example12
             for (int j = i;j<arr.length;j++)
             {
                 sum = 0;
-                for (int k = i;k<arr.length;k++)
+                for (int k = i;k<j;k++)
                 {
                     sum+=arr[k];
                 }
