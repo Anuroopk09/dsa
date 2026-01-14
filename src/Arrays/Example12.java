@@ -3,7 +3,7 @@ package Arrays;
 
 public class Example12
 {
-    //maximum sub array sum
+    //maximum sub-array sum
     public static int maxSum(int[] arr)
     {
         int sum = 0;
