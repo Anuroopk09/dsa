@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 public class Example20
 {
-    //Move all negative numbers to the beginning and positive numbers to the end
+    //Move all negative numbers to the beginning and positive numbers towards the end
     static void main()
     {
         int[] arr = {1, 2, -4, -5};
