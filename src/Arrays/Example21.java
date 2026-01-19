@@ -19,7 +19,9 @@ public class Example21 {
     static void main() {
         int[] arr ={3,6,5,1,2};
         System.out.println("Element found at index:"+linearSearch(arr));
+
         int[] arr2 = {3,6,5,2,4,2,4};
         System.out.println("Element found at index:"+linearSearch(arr2));
+
     }
 }
