@@ -4,12 +4,9 @@ public class Example24
 {
     //Print The Inversion Pairs
     // Inversion Pair: i < j && A[i] < A[j]
-
-    public static void main(String[] args) {
-
-        int[] nums = {2,4,1,3,5};
+    static int inversionPair(int[] nums)
+    {
         int count = 0;
-
         for(int i=0; i < nums.length-1; i++)
         {
             for(int j=i+1; j < nums.length; j++)
@@ -21,8 +18,15 @@ public class Example24
                 }
             }
         }
+        return count;
 
-        System.out.println(count);
+    }
+
+    public static void main(String[] args) {
+
+        int[] nums = {2,4,1,3,5};
+        System.out.println(inversionPair(nums));
+
 
     }
 
