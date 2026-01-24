@@ -26,6 +26,8 @@ public class Example24
 
         int[] nums = {2,4,1,3,5};
         System.out.println(inversionPair(nums));
+
+
     }
 
 }
