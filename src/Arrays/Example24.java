@@ -28,6 +28,8 @@ public class Example24
         System.out.println(inversionPair(nums));
 
 
+
+
     }
 
 }
