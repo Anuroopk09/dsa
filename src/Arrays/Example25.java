@@ -7,7 +7,7 @@ public class Example25
     //leaders in an array
     static ArrayList<Integer> leaders(int[] arr)
     {
-        int prefix=0;
+        int prefix = 0;
 
         ArrayList<Integer> result = new ArrayList<>();
 
@@ -27,7 +27,7 @@ public class Example25
         return result;
     }
     public static void main(String[] args) {
-        int[] arr = {16,17,4,3,5,2};
+        int[] arr = {10, 4, 2, 4, 1};
         System.out.println(leaders(arr));
     }
 }
