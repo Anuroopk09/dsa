@@ -20,7 +20,6 @@ public class Example28
                 }
             }
         }
-
         return found ? target : -1;
     }
     public static void main(String[] args)
