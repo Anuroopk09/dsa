@@ -26,5 +26,7 @@ public class Example28
     {
         int[] arr = {3,1,2,4};
         System.out.println(maxSum(arr));
+
+
     }
 }
