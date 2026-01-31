@@ -10,10 +10,13 @@ public class Example29 {
         ArrayList<Integer> positive = new ArrayList<>();
         ArrayList<Integer> negative = new ArrayList<>();
 
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] > 0) {
+        for (int i = 0; i < arr.length; i++)
+        {
+            if (arr[i] > 0)
+            {
                 positive.add(arr[i]);
-            } else {
+            } else
+            {
                 negative.add(arr[i]);
             }
         }
@@ -23,11 +26,15 @@ public class Example29 {
         int p = 0;
         int n = 0;
 
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] > 0) {
+        for (int i = 0; i < arr.length; i++)
+        {
+            if (arr[i] > 0)
+            {
                 newArray.add(positive.get(p));
                 p++;
-            } else {
+            }
+            else
+            {
                 newArray.add(negative.get(n));
                 n++;
             }
@@ -36,8 +43,8 @@ public class Example29 {
         return newArray;
     }
 
-    public static void main(String[] args) {
-
+    public static void main(String[] args)
+    {
         int[] arr = {1, -3, 2, -1, 3, -2};
         System.out.println(sortArr(arr));
     }
