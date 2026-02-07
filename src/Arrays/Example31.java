@@ -3,6 +3,7 @@ package Arrays;
 public class Example31 {
     static void printSubArrayWithSumZero(int[] arr)
     {
+        //print sub arrays with sum 0
         for (int i = 0; i < arr.length; i++)
         {
             int sum = 0;
