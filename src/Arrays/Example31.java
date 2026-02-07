@@ -1,11 +1,8 @@
 package Arrays;
 
 public class Example31 {
-    public static void main(String[] args)
+    static void printSubArrayWithSumZero(int[] arr)
     {
-
-        int[] arr = {6, -2, 2, -8, 1, 7, 4, -10};
-
         for (int i = 0; i < arr.length; i++)
         {
             int sum = 0;
@@ -25,5 +22,10 @@ public class Example31 {
                 }
             }
         }
+    }
+    public static void main(String[] args)
+    {
+        int[] arr = {6, -2, 2, -8, 1, 7, 4, -10};
+        printSubArrayWithSumZero(arr);
     }
 }
