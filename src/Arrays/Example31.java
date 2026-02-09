@@ -7,14 +7,12 @@ public class Example31 {
         for (int i = 0; i < arr.length; i++)
         {
             int sum = 0;
-
             for (int j = i; j < arr.length; j++)
             {
                 sum += arr[j];
 
                 if (sum == 0)
                 {
-
                     for (int k = i; k <= j; k++)
                     {
                         System.out.print(arr[k] + " ");
