@@ -24,9 +24,7 @@ public class Example33
                     maximumClosestSum = Math.max(maximumClosestSum,sum);
                     result[0] = arr[i];
                     result[1] = arr[j];
-
                 }
-
             }
         }
 
