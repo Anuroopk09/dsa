@@ -18,6 +18,7 @@ public class Example2 {
                 secondMax=arr[i];
             }
         }
+
         System.out.println(max);
         System.out.println(secondMax);
     }
