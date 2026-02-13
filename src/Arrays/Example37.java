@@ -3,6 +3,7 @@ package Arrays;
 import java.util.Arrays;
 
 public class Example37
+    //insert into sorted array
 {
     public static void main(String[] args)
     {

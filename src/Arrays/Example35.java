@@ -2,6 +2,7 @@ package Arrays;
 
 public class Example35
 {
+    //lower bound
     static int lowerBound(int[] arr,int target)
     {
         for (int i =0;i<arr.length;i++)

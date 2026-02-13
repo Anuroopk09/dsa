@@ -2,6 +2,7 @@ package Arrays;
 
 public class Example36
 {
+    //upper-bound
     static int upperBound(int[] arr,int target)
     {
         for (int i =0;i<arr.length;i++)
