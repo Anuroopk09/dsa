@@ -31,6 +31,8 @@ public class Example38
         int target = 6;
         int answer = findTargetIndex(arr,target);
         System.out.println(answer);
+
+
     }
 
 }
