@@ -2,6 +2,7 @@ package Arrays;
 
 public class Example40
 {
+    //first and last occurance in an array
     static int firstOcc(int[] arr,int target)
     {
         for (int i=0;i<arr.length;i++)
