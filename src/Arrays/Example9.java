@@ -3,7 +3,8 @@ package Arrays;
 public class Example9
 {
     //frequency counter of an array
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         int[] arr={2,2,3,3,1,2,2};
         int size=arr[0];
 
