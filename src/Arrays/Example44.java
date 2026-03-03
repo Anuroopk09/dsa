@@ -10,7 +10,8 @@ public class Example44
         while (low<=high)
         {
             int mid = (low+high)/2;
-            if (arr[mid]==target) {
+            if (arr[mid]==target)
+            {
                 return mid;
             }
             if (arr[low]<=arr[mid])
