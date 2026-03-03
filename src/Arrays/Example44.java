@@ -45,7 +45,5 @@ public class Example44
         int target =0;
         int ans = searchElement(arr,target);
         System.out.println(ans);
-
-
     }
 }
