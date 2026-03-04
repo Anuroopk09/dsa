@@ -2,26 +2,29 @@ package Arrays;
 
 public class Example46
 {
-    //how many times an array is rotated(brute force)
-    static int rotated(int[] arr)
+    //rotation count of an array (binary search)
+    static int findRotation(int[] arr)
     {
-        int count=0;
-        int minValue=arr[0];
-        int minIndex= 0;
-        for (int i=0;i<arr.length;i++)
+        int low = 0;
+        int high = arr.length-1;
+        while(low<high)
         {
-            if (arr[i]<minValue)
+            int mid = low+(high-low)/2;
+            if (arr[mid]>arr[high])
             {
-                minValue=arr[i];
-                minIndex = i;
+                low =mid+1;
+            }
+            else
+            {
+                high = mid;
             }
         }
-        return minIndex;
+        return low;
     }
     public static void main(String[] args)
     {
-        int[] arr= {4,5,6,7,0,1,2,3};
-        int ans = rotated(arr);
+        int[] arr = {4,5,6,7,0,1,2,3};
+        int ans = findRotation(arr);
         System.out.println(ans);
     }
 }
