@@ -4,7 +4,8 @@ class Example16 {
 
     //sort an array of 0's 1's and 2's
 
-    void main() {
+    void main()
+    {
 
         int[] arr = {1, 0, 2, 1, 0};
         int[] arr2 = new int[arr.length];

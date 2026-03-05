@@ -40,7 +40,7 @@ public class Example18 {
 
         return -1;
     }
-    static void main() {
+    public static void main(String[] args) {
         int arr[] = {1,1,1,1,2,3,5};
         int majority = majorityElement(arr);
         System.out.println(majority);

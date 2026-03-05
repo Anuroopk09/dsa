@@ -1,8 +1,10 @@
 package Arrays;
 import java.util.*;
-public class Example15 {
+public class Example15
+{
     //three sum problem optimal solution
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         int[] arr = {2,7,11,15,-2,4};
         int target  =20;
         Arrays.sort(arr);
@@ -28,12 +30,6 @@ public class Example15 {
                    right--;
                }
            }
-
-
        }
-
-
-
-
     }
 }
