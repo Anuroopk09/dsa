@@ -3,30 +3,28 @@ package Arrays;
 public class Example49
 {
     //find the single number in an array
-    static int singleNonDuplicate(int[] arr)
+    static int singleNonDuplicate(int[] nums)
     {
+        int n = nums.length;
+       //if array contains only 1 element
+        if(n==1) return nums[0];
 
-        if (arr[0]!=arr[1])
-        {
-            return arr[0];
-        }
-        if(arr[arr.length-1]!=arr[arr.length-2])
-        {
-            return arr[arr.length-1];
-        }
-        int low = 0;
-        int high = arr.length-2;
+        //for first and last elements
+        if (nums[0]!=nums[1]) return nums[0];
+        if (nums[n-1]!= nums[n-2]) return nums[n-1];
+
+        int low = 1;
+        int high = n-2;
+
         while(low<=high)
         {
-            int mid =(low+high)/2;
-            if(arr[mid]!=arr[mid-1] && arr[mid]!=arr[mid+1])
+            int mid = (low+high)/2;
+            //for mid element
+            if(nums[mid]!=nums[mid-1] && nums[mid]!=nums[mid+1]) return nums[mid];
+
+            if((mid%2==1 && nums[mid]==nums[mid-1]) || (mid%2==0 && nums[mid]==nums[mid+1]))
             {
-                return arr[mid];
-            }
-            if     ((mid%2==1 && arr[mid]==arr[mid-1] ) ||
-                    (mid%2==0 && arr[mid]==arr[mid+1]))
-            {
-                low =mid+1;
+                low = mid+1;
             }
             else
             {
@@ -34,13 +32,11 @@ public class Example49
             }
         }
         return -1;
-
-
     }
     public static void main(String[] args)
     {
-        int[] arr ={1,1,2,2,3,3,4,5,5,6,6};
-        int ans = singleNonDuplicate(arr);
+        int[] nums ={1,1,2,2,3,3,4,5,5,6,6};
+        int ans = singleNonDuplicate(nums);
         System.out.println(ans);
 
     }
