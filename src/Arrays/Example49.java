@@ -38,6 +38,5 @@ public class Example49
         int[] nums ={1,1,2,2,3,3,4,5,5,6,6};
         int ans = singleNonDuplicate(nums);
         System.out.println(ans);
-
     }
 }
