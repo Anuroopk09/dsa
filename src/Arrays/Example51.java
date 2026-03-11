@@ -2,6 +2,7 @@ package Arrays;
 
 public class Example51
 {
+    //square root of a number using linear search
     static int floorSqrt(int n)
     {
         int ans = 0;
