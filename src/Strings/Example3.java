@@ -31,5 +31,6 @@ public class Example3
         String t = "ACT";
         Boolean ans = anagramsOfString(s,t);
         System.out.println(ans);
+
     }
 }
