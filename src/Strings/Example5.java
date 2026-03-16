@@ -5,6 +5,7 @@ import java.util.List;
 
 public class Example5
 {
+    //reverse the words in a string
     static String reverseWords(String str)
     {
         int n = str.length();
