@@ -34,5 +34,7 @@ public class Example7
     {
         String str1 = "tree";
         System.out.println(frequencyCounter(str1));
+
+
     }
 }
