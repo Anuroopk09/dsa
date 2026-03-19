@@ -6,7 +6,8 @@ public class Example8
     static char getMax(String str)
     {
         int maxCount = 0;
-        char maxChar= ' ';
+        char maxChar = '\u0000';
+
         for (int i=0;i<str.length();i++)
         {
             int frequency =1;
@@ -16,11 +17,12 @@ public class Example8
                 {
                     frequency++;
                 }
-                if(frequency>maxCount)
-                {
-                    maxCount = frequency;
-                    maxChar = str.charAt(j);
-                }
+            }
+
+            if(frequency>maxCount)
+            {
+                maxCount = frequency;
+                maxChar = str.charAt(i);
             }
         }
         return maxChar;
