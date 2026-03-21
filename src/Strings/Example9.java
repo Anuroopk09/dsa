@@ -55,6 +55,5 @@ public class Example9
     {
         String str="aabcbaa";
         System.out.println(beautifyString(str));
-
     }
 }
