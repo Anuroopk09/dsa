@@ -22,7 +22,7 @@ public class Example6
 
             if(m1.containsKey(c1))
             {
-                if(m1.get(c1) != c2)
+                if(!m1.get(c1).equals(c2))
                 {
                     return false;
                 }
@@ -34,7 +34,7 @@ public class Example6
 
             if(m2.containsKey(c2))
             {
-                if(m2.get(c2) != c1)
+                if(!m2.get(c2).equals(c1))
                 {
                     return false;
                 }
