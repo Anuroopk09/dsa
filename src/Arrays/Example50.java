@@ -2,6 +2,7 @@ package Arrays;
 
 public class Example50
 {
+    //peak element find
     static int peakElement(int[] nums)
     {
         int low =0;
