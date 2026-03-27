@@ -41,7 +41,5 @@ class Example13 {
     {
         String str1 = "A man, a plan, a canal: Panama";
         System.out.println(isPalindrome(str1));
-
-
     }
 }
