@@ -29,5 +29,7 @@ class Example15
         String a ="ABCD";
         String b ="XYZ";
         System.out.println(addBinary(a,b));
+
+
     }
 }
