@@ -40,5 +40,7 @@ class Example16 {
     public static void main(String[] args) {
         String str1 = "leetcode";
         System.out.println(reverseVowels(str1));
+
+
     }
 }
