@@ -4,6 +4,7 @@ import java.util.HashSet;
 
 public class Example60
 {
+    //leetcode 575- distribute candies
     static int distributeCandies(int[] candyType)
     {
         HashSet<Integer> set = new HashSet<>();
