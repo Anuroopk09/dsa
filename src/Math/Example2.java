@@ -1,6 +1,6 @@
 package Math;
 
-public class Example4
+public class Example2
 {
    static boolean powerOfFour(int n)
     {

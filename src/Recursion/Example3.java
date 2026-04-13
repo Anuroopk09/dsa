@@ -1,4 +1,4 @@
-package Math;
+package Recursion;
 
 public class Example3
 {
