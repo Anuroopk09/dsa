@@ -7,6 +7,7 @@ public class Example1
         private Node head;
         private static class Node
         {
+
             int data;
             Node next;
 
