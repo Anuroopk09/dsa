@@ -1,6 +1,7 @@
 package Strings;
 
 class Example19 {
+    //string to integer
     static int myAtoi(String s)
     {
         int i = 0, n = s.length();
