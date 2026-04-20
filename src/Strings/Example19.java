@@ -17,7 +17,8 @@ class Example19 {
             sign = (s.charAt(i) == '-') ? -1 : 1;
             i++;
         }
-        
+
+
         int result = 0;
         while (i < n && Character.isDigit(s.charAt(i))) 
         {
@@ -31,7 +32,7 @@ class Example19 {
             result = result * 10 + digit;
             i++;
         }
-        
+
         return result * sign;
     }
 
