@@ -16,5 +16,6 @@ class Example64
     {
         String columnTitle = "A";
         System.out.println(titleToNumber(columnTitle));
+
     }
 }
