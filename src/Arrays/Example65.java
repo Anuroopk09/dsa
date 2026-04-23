@@ -28,6 +28,12 @@ class Example65 {
         }
         System.out.println();
     }
+    public static void main(String[] args)
+    {
+        int[] nums = {1,2,3,4,5,6};
+        rotate(nums,3);
+        printArr(nums);
+    }
 
 
 }
