@@ -34,6 +34,5 @@ class Example65 {
         rotate(nums,3);
         printArr(nums);
 
-
     }
 }
