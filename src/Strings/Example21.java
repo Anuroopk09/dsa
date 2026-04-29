@@ -28,7 +28,5 @@ class Example21 {
     public static void main(String[] args)
     {
         System.out.println(letterCombinations("23"));
-
-
     }
 }
