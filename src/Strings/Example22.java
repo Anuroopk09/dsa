@@ -38,6 +38,5 @@ class Example22 {
         String num1 = "10";
         String num2 = "50";
         System.out.println(multiply(num1,num2));
-
     }
 }
