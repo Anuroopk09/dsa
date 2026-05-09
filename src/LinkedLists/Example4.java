@@ -47,7 +47,6 @@ public class Example4
                 pq.offer(node.next);
             }
         }
-
         return dummy.next;
     }
 
