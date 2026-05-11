@@ -76,9 +76,7 @@ class Example67
     public static void main(String[] args)
     {
         String s = "barfoothefoobarman";
-
         String[] words = {"foo", "bar"};
-
         System.out.println(findSubstring(s, words));
     }
 }
