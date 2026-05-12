@@ -69,7 +69,6 @@ class Example67
                 }
             }
         }
-
         return res;
     }
 
