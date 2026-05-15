@@ -22,7 +22,7 @@ public class Example34
             }
             else
             {
-                high =mid-1;
+                high=mid-1;
             }
         }
         return -1;
@@ -34,7 +34,5 @@ public class Example34
         int target = 6;
         int index =binarySearch(arr,target);
         System.out.println(index);
-
-
     }
 }
