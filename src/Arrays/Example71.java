@@ -27,5 +27,6 @@ class Example71 {
         int[] nums = {1,3,5};
         System.out.println(findMin(nums));
 
+
     }
 }
