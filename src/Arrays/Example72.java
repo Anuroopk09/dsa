@@ -34,6 +34,5 @@ public class Example72
         int[] B = {3,1,2,4};
         int[] C = findThePrefixCommonArray(A,B);
         printArray(C);
-
     }
 }
