@@ -3,7 +3,6 @@ package Strings;
 class Example23
 {
     //count the number of special characters(characters which are present in both uppercase and lowercase)
-
     static int numberOfSpecialChars(String word)
     {
         boolean[] lower = new boolean[26];
