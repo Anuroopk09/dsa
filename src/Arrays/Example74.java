@@ -24,7 +24,6 @@ class Example74
         int[] nums = {32,12,34,65,13};
         int ans = minElement(nums);
         System.out.println(ans);
-
     }
 
 }
