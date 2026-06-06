@@ -22,7 +22,6 @@ public class Example6 {
         for(int j = 0; j < arr2.size(); ++j) {
             System.out.print(arr2.get(j)+" ");
         }
-
         System.out.println();
     }
 
