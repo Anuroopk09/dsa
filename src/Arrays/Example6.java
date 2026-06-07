@@ -13,7 +13,6 @@ public class Example6 {
                 arr2.add(arr[i]);
             }
         }
-
         int zeroCount = arr.length - arr2.size();
         for (int i = 0; i < zeroCount; i++) {
             arr2.add(0);
