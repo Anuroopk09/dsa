@@ -1,7 +1,7 @@
 package Arrays;
 
 class Example75 {
-
+    //maximum total subarray value
     static long maxTotalValue(int[] nums, int k) {
         int min = Integer.MAX_VALUE, max = Integer.MIN_VALUE;
 
