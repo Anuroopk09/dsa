@@ -20,5 +20,6 @@ class Example75 {
         int[] arr = {1,3,2};
         int k =2;
         System.out.println(maxTotalValue(arr,k));
+
     }
 }
