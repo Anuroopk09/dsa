@@ -22,5 +22,6 @@ public class Example6 {
             System.out.print(arr2.get(j)+" ");
         }
         System.out.println();
+
     }
 }
